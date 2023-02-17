@@ -27,3 +27,9 @@ function getUserAverageAge(users) {
   return sumAge / users.length;
 }
 console.log(getUserAverageAge(users));
+
+function getUsersNames(users) {
+  return users.map((user) => user.name);
+}
+
+console.log(getUsersNames(users));
